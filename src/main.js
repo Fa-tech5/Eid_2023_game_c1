@@ -55,7 +55,7 @@ const app = new App({
             money: 6
           },
           {
-            text: "الأكل",
+            text: "الاكل",
             money: 4
           },
           {
@@ -121,7 +121,7 @@ const app = new App({
             money: 3
           },
           {
-            text: "",
+            text: "الوزن",
             money: 1
           }
         ]
