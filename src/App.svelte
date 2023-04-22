@@ -311,7 +311,7 @@
     text-align: center;
     color: coral;
     font-family: Rye;
-    font-size: 10vw;
+    font-size: 8vw;
     text-shadow: 5px 5px 0px white;
   }
   .github {
