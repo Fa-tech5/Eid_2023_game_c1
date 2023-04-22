@@ -145,7 +145,7 @@
           teamDisable[1] = true;
         }
 
-        displayMessage("" + teamNames[currentTeam] + "أول إجابة صحيحة يلا نكمل", 6);
+        displayMessage("" + teamNames[currentTeam] + " أول إجابة صحيحة يلا نكمل", 6);
 
         faceOff   = false;
         bankMoney = money;
@@ -311,7 +311,7 @@
     text-align: center;
     color: coral;
     font-family: Rye;
-    font-size: 8vw;
+    font-size: 10vw;
     text-shadow: 5px 5px 0px white;
   }
   .github {
@@ -333,7 +333,8 @@
   {#if !start}
     <div class="column-center">
       <div class="logo logo-border-animation">
-        <div class="logo-text">عيد آل عابد العتيبي
+        <div class="logo-text">
+        عيد آل عابد العتيبي
         </div>
       </div>
 
@@ -353,6 +354,8 @@
       </div>
     {:else}
       {#if next}
+
+    <br>
         <div class="row-center">
           <button on:click={nextRound}><span>الجولة التالية<span></button>
         </div>
